@@ -13,4 +13,48 @@ header {
   height: 100px;
   position: fixed;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header > * {
+  padding: 0 1rem;
+}
+.img-logo {
+  width: 50%;
+  background-color: darkgreen;
+}
+nav {
+  width: 50%;
+  background-color: chocolate;
+  color: antiquewhite;
+  font-size: 2rem;
+  justify-content: right;
+}
+.nav-bars {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-links {
+  display: none;
+}
+ul > li {
+  list-style: none;
+}
+.link-list {
+  display: flex;
+  justify-content: space-between;
+}
+/* *****************
+   *  RESPONSIVE   *
+   ***************** */
+@media screen and (min-width: 992px) {
+  nav > .nav-bars {
+    display: none;
+  }
+  .nav-links {
+    width: 100%;
+    display: block;
+    background-color: brown;
+  }
 }

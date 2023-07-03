@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 /* *************
    *  UTILS    *
@@ -20,7 +21,7 @@ header + * {
   padding-top: 80px;
 }
 header {
-  background-color: blue;
+  background-color: #0084fd;
   width: 100%;
   height: 80px;
   position: fixed;
@@ -64,19 +65,20 @@ li > span {
   background-color: aliceblue;
   border-radius: 15px;
 }
-/* *************
-   *  SECTION   *
-   ************* */
-.card-container {
+/* *********************
+   *  SECTION - CARDS  *
+   ********************* */
+.container {
   background-color: chocolate;
   width: 100%;
   height: 1200px;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .card {
-  background-color: aqua;
+  background-color: #b5ddff;
   width: 80%;
-  height: 722px;
+  height: 740px;
   margin: 20px 0;
   border-radius: 20px;
   flex-direction: column;
@@ -84,14 +86,15 @@ li > span {
 }
 .card > h2 {
   margin: 15px 0;
-  color: blue;
+  color: #0084fd;
 }
 .card > p {
-  padding: 0 15px;
+  color: grey;
+  padding: 0 25px;
 }
 .card > button {
   border: none;
-  background-color: blue;
+  background-color: #0084fd;
   color: white;
   margin: 30px;
   padding: 10px;
@@ -100,6 +103,55 @@ li > span {
 }
 .card > img {
   width: 100%;
+}
+
+/* ************************
+   *  SECTION - PLANNING  *
+   ************************ */
+
+.planning {
+  background-color: violet;
+  width: 100%;
+}
+
+/* ****************************
+   *  SECTION - TESTIMONIALS  *
+   **************************** */
+
+.testimonials {
+  background-color: burlywood;
+}
+
+/* ************************
+   *  SECTION - BENEFITS  *
+   ************************ */
+
+.benefits {
+  background-color: darkslateblue;
+}
+
+/* ************************
+   *  SECTION - ABOUT US  *
+   ************************ */
+
+.about {
+  background-color: crimson;
+}
+
+/* ***************************
+   *  SECTION - GET STARTED  *
+   *************************** */
+
+.start {
+  background-color: aqua;
+}
+
+/* ************
+   *  FOOTER  *
+   ************ */
+
+.footer {
+  background-color: #333333;
 }
 /* *****************
    *  RESPONSIVE   *

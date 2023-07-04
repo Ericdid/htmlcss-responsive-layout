@@ -43,6 +43,13 @@
   padding: 1rem;
 }
 
+section {
+  padding: 3rem 0;
+}
+section:nth-of-type(even) {
+  background-color: #9593e6;
+}
+
 /* *************
    *  HEADER   *
    ************* */

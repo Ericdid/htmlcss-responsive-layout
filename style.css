@@ -97,13 +97,43 @@ li > span {
 /* *********************
    *  SECTION - INTRO  *
    ********************* */
-#intro .col {
-  background-color: brown;
-}
+
 #intro .card {
-  background-color: aqua;
+  background-color: #b5ddff;
+  border-radius: 15px;
   padding: 1rem;
   height: 100%;
+}
+
+#intro .box-section {
+  text-align: center;
+  margin: 30px 0;
+  width: 100%;
+}
+#intro .card > .card-section {
+  width: 100%;
+}
+#intro h2 {
+  color: #0084fd;
+  margin: 15px 0;
+}
+#intro p {
+  color: grey;
+}
+#intro span {
+  padding: 15px;
+  background-color: #0084fd;
+  color: aliceblue;
+  border-radius: 15px;
+}
+
+#intro .box-section > .fa-solid {
+  font-size: 5rem;
+  color: #0084fd;
+}
+
+#intro .card-section > img {
+  width: 100%;
 }
 
 /* ************************
@@ -172,9 +202,10 @@ li > span {
   }
   #intro .col:first-child .card {
     display: flex;
+    flex-direction: column;
   }
   #intro .card > .card-section {
-    width: 50%;
+    width: 100%;
   }
 }
 
@@ -186,5 +217,12 @@ li > span {
   .nav-links {
     width: 100%;
     display: block;
+  }
+
+  #intro .col:first-child .card {
+    flex-direction: row;
+  }
+  #intro .col:first-child .card .box-section {
+    width: 50%;
   }
 }

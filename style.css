@@ -191,6 +191,7 @@ li > span {
 }
 #testimonials .col > .card {
   width: 100%;
+  padding: 50px;
   background-color: #9593e6;
   color: white;
   border-radius: 15px;
@@ -261,6 +262,18 @@ li > span {
 
   #planning .col > h2 {
     font-size: 3rem;
+  }
+  #testimonials .card > .card-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  #testimonials .card-img > img {
+    width: 500px;
+    border-radius: 50%;
+    overflow: hidden;
+    aspect-ratio: 1;
+    margin: 0 auto;
   }
 }
 

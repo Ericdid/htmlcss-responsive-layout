@@ -212,6 +212,9 @@ li > span {
 #benefits {
   color: white;
 }
+#benefits .col > h2 {
+  text-align: center;
+}
 
 #benefits .col > .col-card {
   width: 100%;
@@ -298,6 +301,17 @@ li > span {
     aspect-ratio: 1;
     margin: 0 auto;
   }
+
+  #benefits .col {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #benefits .col > .col-card {
+    margin: 10px;
+    width: 46%;
+  }
 }
 
 /* DESKTOP */
@@ -340,5 +354,9 @@ li > span {
   }
   #planning .card > img {
     width: 50%;
+  }
+
+  #benefits .col > .col-card {
+    width: 30%;
   }
 }

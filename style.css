@@ -306,6 +306,7 @@ li > span {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   #benefits .col > .col-card {

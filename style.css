@@ -209,8 +209,31 @@ li > span {
    *  SECTION - BENEFITS  *
    ************************ */
 
-.benefits {
-  background-color: darkslateblue;
+#benefits {
+  color: white;
+}
+
+#benefits .col > .col-card {
+  width: 100%;
+  border-radius: 15px;
+  background-color: white;
+  color: #9593e6;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px;
+  margin: 30px 0;
+}
+
+#benefits .col-card > .card-content {
+  margin: 15px 0;
+}
+
+#benefits .card-content > span {
+  background-color: #9593e6;
+  color: white;
+  padding: 15px 50px;
+  border-radius: 30px;
 }
 
 /* ************************

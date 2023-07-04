@@ -177,8 +177,31 @@ li > span {
    *  SECTION - TESTIMONIALS  *
    **************************** */
 
-.testimonials {
-  background-color: burlywood;
+#testimonials .col {
+  text-align: center;
+}
+#testimonials .col > h2 {
+  padding: 20px;
+  color: #9593e6;
+}
+#testimonials .card > .card-img {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+#testimonials .col > .card {
+  width: 100%;
+  background-color: #9593e6;
+  color: white;
+  border-radius: 15px;
+}
+
+#testimonials .card-img > img {
+  width: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  aspect-ratio: 1;
+  margin: 0 auto;
 }
 
 /* ************************
@@ -252,6 +275,7 @@ li > span {
   }
 
   #intro .col:first-child .card {
+    max-width: 1190px;
     flex-direction: row;
   }
   #intro .col:first-child .card .box-section {

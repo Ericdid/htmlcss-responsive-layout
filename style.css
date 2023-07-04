@@ -34,6 +34,15 @@
   padding: 0 1rem;
 }
 
+.row {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.col {
+  padding: 1rem;
+}
+
 /* *************
    *  HEADER   *
    ************* */
@@ -90,11 +99,11 @@ li > span {
    ********************* */
 #intro .col {
   background-color: brown;
-  padding: 1rem;
 }
 #intro .card {
   background-color: aqua;
   padding: 1rem;
+  height: 100%;
 }
 
 /* ************************
@@ -160,6 +169,12 @@ li > span {
   }
   #intro .col:first-child {
     width: calc(100% / 3 * 2);
+  }
+  #intro .col:first-child .card {
+    display: flex;
+  }
+  #intro .card > .card-section {
+    width: 50%;
   }
 }
 
